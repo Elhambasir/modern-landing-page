@@ -177,24 +177,29 @@
   <!-- HERO -->
   <section class="hero bg-grey py-12 xl:pt-12 xl:pb-0 overflow-hidden">
     <!-- TEXT & IMAGE -->
-    <div class="container mx-auto lg:flex h-full">
+    <div class="container mx-auto gap-y-2 lg:flex lg:justify-around h-full">
       <!-- TEXT -->
-      <div class="hero_text xl:w-[48%] text-center lg:text-left xl:text-left">
+      <div class="hero_text xl:w-[48%] flex flex-col text-center lg:justify-start lg:text-left xl:text-left ">
         <!-- BADGE -->
         <div class="flex items-center bg-white py-[10px] px-[20px] w-max gap-x-2 mb-[26px]
-        rounded-full mx-auto xl:mx-0">
+        rounded-full mx-auto lg:mx-0">
           <i class="ri-heart-pulse-line text-2xl text-accent"></i>
           <div class="uppercase text-base font-medium text-[#9ab4b7] tracking-24px]">Live your life</div>
         </div>
         <!-- TITLE -->
-        <h1 class="h1 mb-6">We care about your health</h1>
+        <h1 class="h2 mb-6">We care about your health</h1>
         <!-- DESCRIPTION -->
-        <P>description</P>
+        <P class="mb-[42px] md:max-w-xl mx-auto">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          Fuga veniam saepe magni sit placeat similique praesentium 
+          suscipit assumenda amet totam facilis</P>
         <!-- BTN -->
-        <button>btn</button>
+        <button class="btn btn-sm lg:w-[240px] btn-accent 
+        mx-auto xl:mx-0">CONTACT US</button>
       </div>
       <!-- IMAGE -->
-      <div class="hero_img hidden xl:flex max-w-[814px] self-end">
+      <div class="hero_img hidden lg:flex xl:flex max-w-[814px] self-end">
+        <img src="./assets/img/doctor1.png" class="w-[400px]" alt="elham">
       </div>
     </div>
   </section>

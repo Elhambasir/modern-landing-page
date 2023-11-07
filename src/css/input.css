@@ -66,7 +66,7 @@ h6 {
 }
 
 .select {
-  @apply py-12 xl:py-[15px];
+  @apply py-4 lg:py-[15px];
 }
 
 .section {

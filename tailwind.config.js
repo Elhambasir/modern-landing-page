@@ -20,7 +20,8 @@ module.exports = {
         accent: {
           DEFAULT: '#1cbccf',
           secondary: '#18abbc',
-          tertiary: '#90c6cd'
+          tertiary: '#90c6cd',
+          quaternary: '#E7F1F2'
         },
         grey: '#e8f0f1'
       },
@@ -32,11 +33,11 @@ module.exports = {
         custom2: '0px 0px 30px 0px rgba(8, 73, 81, 0.06)'
       },
       backgroundImage: {
-        services: 'url(../assets/images/services-bg.png)',
+        services: 'url(../assets/img/services.jpg)',
         testimonials: 'url(../assets/images/testimonials-bg.png)',
         departments: 'url(../assets/images/departments-bg.png)',
-        quoteLeft: 'url(../assets/images/quote-left.png)',
-        quoteRight: 'url(../assets/images/quote-right.png)'
+        quoteLeft: 'url(../assets/img/double-quotes-l.png)',
+        quoteRight: 'url(../assets/img/double-quotes-r.png)'
       },
     },
   },

@@ -667,8 +667,12 @@ video {
   margin-top: 2rem;
 }
 
-.mt-7 {
-  margin-top: 1.75rem;
+.mb-\[50px\] {
+  margin-bottom: 50px;
+}
+
+.mb-\[20px\] {
+  margin-bottom: 20px;
 }
 
 .flex {
@@ -695,20 +699,20 @@ video {
   height: 400px;
 }
 
-.h-full {
-  height: 100%;
-}
-
-.h-\[420px\] {
-  height: 420px;
-}
-
 .h-\[450px\] {
   height: 450px;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .min-h-\[288px\] {
   min-height: 288px;
+}
+
+.min-h-\[400px\] {
+  min-height: 400px;
 }
 
 .w-8 {
@@ -790,10 +794,6 @@ video {
   align-items: center;
 }
 
-.justify-end {
-  justify-content: flex-end;
-}
-
 .justify-center {
   justify-content: center;
 }
@@ -804,6 +804,14 @@ video {
 
 .gap-5 {
   gap: 1.25rem;
+}
+
+.gap-\[30px\] {
+  gap: 30px;
+}
+
+.gap-9 {
+  gap: 2.25rem;
 }
 
 .gap-x-2 {
@@ -839,6 +847,11 @@ video {
 
 .gap-y-6 {
   row-gap: 1.5rem;
+}
+
+.gap-x-5 {
+  -moz-column-gap: 1.25rem;
+       column-gap: 1.25rem;
 }
 
 .self-start {
@@ -908,10 +921,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-services {
-  background-image: url(../assets/img/services.jpg);
 }
 
 .p-\[30px\] {
@@ -1001,6 +1010,10 @@ video {
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-\[30px\] {
+  font-size: 30px;
 }
 
 .font-bold {
@@ -1424,28 +1437,13 @@ h6 {
   border-color: rgb(28 188 207 / var(--tw-border-opacity));
 }
 
-@media (min-width: 640px) {
-  .sm\:bg-services {
-    background-image: url(../assets/img/services.jpg);
-  }
-}
-
 @media (min-width: 768px) {
   .md\:max-w-xl {
     max-width: 36rem;
   }
 
-  .md\:justify-center {
-    justify-content: center;
-  }
-
-  .md\:bg-accent-quaternary {
-    --tw-bg-opacity: 1;
-    background-color: rgb(231 241 242 / var(--tw-bg-opacity));
-  }
-
-  .md\:bg-services {
-    background-image: url(../assets/img/services.jpg);
+  .md\:flex-row {
+    flex-direction: row;
   }
 }
 
@@ -1536,10 +1534,6 @@ h6 {
     justify-content: flex-start;
   }
 
-  .lg\:justify-end {
-    justify-content: flex-end;
-  }
-
   .lg\:justify-center {
     justify-content: center;
   }
@@ -1568,10 +1562,6 @@ h6 {
   .lg\:bg-accent-quaternary {
     --tw-bg-opacity: 1;
     background-color: rgb(231 241 242 / var(--tw-bg-opacity));
-  }
-
-  .lg\:bg-services {
-    background-image: url(../assets/img/services.jpg);
   }
 
   .lg\:px-0 {

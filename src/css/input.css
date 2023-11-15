@@ -78,6 +78,6 @@ h6 {
   @apply bg-accent;
 }
 
-.faq_item.open .faq__answer {
+.faq_item.open .faq_answer {
   @apply h-full;
 }

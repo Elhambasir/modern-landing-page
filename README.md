@@ -23,7 +23,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Tengo Wallet <a name="about-project"></a>
+# 📖 Modern Landing Page <a name="about-project"></a>
 
 This landing page website is a single webpage designed to promote a specific hospital or healthcare service. It serves as an online brochure, showcasing the hospital's facilities, services, and expertise to attract potential patients. Unlike a general hospital website, a landing page focuses on a particular aspect of the hospital's offerings, aiming to drive a specific action, such as booking an appointment or scheduling a consultation.
 
